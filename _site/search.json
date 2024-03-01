@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jahun Lee",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "My research primarily focuses on the following topics: local public service delivery, local and social network analysis. Below are brief introductions to these topics and the projects\nLocal service delivery, Urban shrinkage,\nLOcal autonomy\nI am currently involved in:\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat MM-DD-YYYY\n    section Section\n        A task          :a1, 03-03-2024, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :03-03-2024, 12d\n        another task    :24d"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d"
+    "text": "Where am I?\nI am a Ph.D. student in the Department of Public Policy, Management, and Analysis at the University of Illinois Chicago,"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jahun Lee",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]

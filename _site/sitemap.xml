@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jahunlee.github.io/index.html</loc>
-    <lastmod>2024-03-01T00:45:31.990Z</lastmod>
+    <loc>https://jahunlee.github.io/research.html</loc>
+    <lastmod>2024-03-01T01:18:37.257Z</lastmod>
   </url>
   <url>
     <loc>https://jahunlee.github.io/about.html</loc>
-    <lastmod>2024-03-01T00:45:29.946Z</lastmod>
+    <lastmod>2024-03-01T01:18:34.839Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jahunlee.github.io/index.html</loc>
+    <lastmod>2024-03-01T01:18:36.803Z</lastmod>
   </url>
 </urlset>
