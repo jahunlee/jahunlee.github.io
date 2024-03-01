@@ -1,0 +1,24 @@
+---
+title: "Research"
+---
+
+My research primarily focuses on the following topics: local public service delivery, local and social network analysis. Below are brief introductions to these topics and the projects 
+
+Local service delivery, Urban shrinkage, 
+
+LOcal autonomy
+
+I am currently involved in:
+
+```{mermaid}
+gantt
+    title A Gantt Diagram
+    dateFormat MM-DD-YYYY
+    section Section
+        A task          :a1, 03-03-2024, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :03-03-2024, 12d
+        another task    :24d
+
+```
