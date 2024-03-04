@@ -4,14 +4,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research interests are local service delivery, urban shrinkage, local autonomy, and social network analysis.\nI am currently involved in:\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat MM-DD-YYYY\n    section Section\n        A task          :a1, 03-03-2024, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :03-03-2024, 12d\n        another task    :24d"
+    "text": "My research interests are local service delivery, local autonomy, social network analysis, urban shrinkage,.\nI am currently involved in:\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat MM-DD-YYYY\n    section Section\n        A task          :a1, 03-03-2024, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :03-03-2024, 12d\n        another task    :24d"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Jahun Lee\nI am a Ph.D. student in the Department of Public Policy, Management, and Analysis at the University of Illinois Chicago,"
+    "text": "Jahun Lee\nI am a Ph.D. student in the Department of Public Policy, Management, and Analytics at the University of Illinois Chicago,"
   },
   {
     "objectID": "index.html",
