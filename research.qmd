@@ -2,13 +2,13 @@
 title: "Research"
 ---
 
-My research interests are local service delivery, local autonomy, social network analysis, urban shrinkage,.
+My research interests are local service delivery, local autonomy, social network analysis, urban shrinkage.
 
 I am currently involved in:
 
 ```{mermaid}
 gantt
-    title A Gantt Diagram
+    title My Current Projects
     dateFormat MM-DD-YYYY
     section Section
         A task          :a1, 03-03-2024, 30d

@@ -4,4 +4,4 @@ title: "About"
 
 # Jahun Lee
 
-I am a Ph.D. student in the Department of Public Policy, Management, and Analytics at the University of Illinois Chicago,
+I am a Ph.D. student in the Department of Public Policy, Management, and Analytics at the University of Illinois Chicago.
