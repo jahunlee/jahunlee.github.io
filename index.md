@@ -10,6 +10,34 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+
+
+
+
+
+
+# My research 
+
+agenda centers on advancing our understanding of urban governance, policy processes, and sustainable urban development through an interdisciplinary lens bridging public administration, public policy, institutional economics, regulation theory, and network science.
+
+Specifically, I investigate key areas related to:
+
+The dynamics underlying intergovernmental collaboration and diffusion of interlocal agreements, analyzing how spatial factors, competition, and networked relationships influence collaborative arrangements among municipalities.
+
+Urban policy issues across various domains such as land use, crime, transportation, economic development, and public services, employing diverse analytical approaches.
+
+The role of advocacy coalitions in shaping policy decisions through discourse networks and other theoretical and methodological approaches.
+
+Economic and policy implications of urban electrification and decarbonization processes, informing strategies for sustainable development and environmental justice.
+
+My research blends theoretical concepts with qualitative and quantitative techniques (advanced statistical methods, social network analysis (SNA), geographic information systems (GIS), spatial statistics, quantitative text analysis, and optimization modeling), extending from national policies to local governance, collaborative networks, competitive dynamics, and cross-jurisdictional diffusion processes - all through a holistic governance perspective analyzing technological, economic, political and institutional dimensions.
+
+
+
+# Education
+
+
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
