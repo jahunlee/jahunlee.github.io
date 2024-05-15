@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jahun Lee / Site Title"
+title                    : "Jahun Lee"
 title_separator          : "-"
 name                     : &name "Jahun Lee"
-description              : &description "personal description"
+description              : &description "Jahun Lee's Website"
 url                      : https://jahunlee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jahunlee/academicpages.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Jahun Lee"
   pronouns         : "he/his" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. Student of Public Administration"
   location         : "Chicago"
   employer         : "University of Illinois, Chicago"
   uri              : # URL
