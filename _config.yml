@@ -322,5 +322,14 @@ defaults:
       comments: # true
       share: true
       related: true
-sidebar:
-  author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # sidebar
+    sidebar:
+    author_profile: true
+
