@@ -5,23 +5,21 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-<<<<<<< HEAD
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
-=======
-title                    : #"Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jahun Lee"
->>>>>>> 97ba58f4f631294492881bf67a26e971cc727152
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -121,11 +119,7 @@ author:
   email            :
   links:
     - label: "Email"
-<<<<<<< HEAD
       icon: "fas fa-fw fa-envelope-square"
-=======
-      icon: "fa fa-envelope-o" # "fas fa-fw fa-envelope-square"
->>>>>>> 97ba58f4f631294492881bf67a26e971cc727152
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -144,11 +138,7 @@ author:
       # url: "https://instagram.com/"
 
 # Site Footer
-<<<<<<< HEAD
 footer:
-=======
-footer: false
->>>>>>> 97ba58f4f631294492881bf67a26e971cc727152
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -332,11 +322,3 @@ defaults:
       comments: # true
       share: true
       related: true
-<<<<<<< HEAD
-=======
-
-  # sidebar
-    sidebar:
-    author_profile: true
-
->>>>>>> 97ba58f4f631294492881bf67a26e971cc727152
