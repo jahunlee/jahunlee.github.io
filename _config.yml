@@ -112,11 +112,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jahun Lee"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Chicago, IL"
-  email            : "jlee903@uic.edu"
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
