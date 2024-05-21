@@ -324,7 +324,6 @@ defaults:
       related: true
 
   # sidebar
-  - 
-sidebar:
-  author_profile: true
-  nav: "main"
+  - sidebar:
+      author_profile: true
+      nav: "main"
