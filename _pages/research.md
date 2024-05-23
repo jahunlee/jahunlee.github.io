@@ -24,12 +24,3 @@ I have interests how local governments address this issue in terms of collaborat
 - **Lee, J.**, &, Lee, M. Does Social Economy Improve Happiness?: Examining the Role of Social Economic Organizations in Enhancing Quality of Life in Korean Shrinking Cities. 
 
 
-```mermaid
-gantt
-    dateFormat HH:mm
-    axisFormat %H:%M
-    Initial milestone : milestone, m1, 17:49, 2m
-    Task A : 10m
-    Task B : 5m
-    Final milestone : milestone, m2, 18:08, 4m
-```
