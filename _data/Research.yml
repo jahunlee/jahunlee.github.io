@@ -2,6 +2,13 @@ subject: Research
 listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
+ 
+  - description: |
+     Our research group is interested in the evolving relationship between humans and AI, with a special focus on Writing with AI. We design and evaluate AI writing assistants (e.g., design space), investigate human-AI collaborative writing processes (e.g., CoAuthor), and conduct user studies, controlled experiments, and surveys to examine the broader implications, such as how AI might shift social norms around authorship, reshape writing education, and influence our everyday communication. Beyond writing, our group's interests span areas such as how AI can support human cognition and decision-making, how AI can enhance learning and teaching, evaluating AI systems with a focus on the needs and experiences of users, and improving public understanding of AI. 
+     
+     Our members have backgrounds in human-computer interaction (HCI), computational social science (CSS), and natural language processing (NLP). Check out the topics each member is passionate about below!
+
+
   - title: "Local Governments' Choice of Service Delivery Mode"
     description: 
       - Chatbot developed based on a large language model
