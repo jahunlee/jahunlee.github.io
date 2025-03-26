@@ -14,7 +14,7 @@ address: University of Illinois Chicago
 #twitter_username: twitter
 #facebook_username: facebook
 #youtube_username: youtube
-blog_url: homepage-url
+# blog_url: homepage-url
 email: jlee903@uic.edu
 
 
@@ -33,3 +33,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-scholar
