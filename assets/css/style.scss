@@ -55,7 +55,7 @@ a { text-decoration:none; }
   position: relative;
   margin: 3rem auto;
   background-color: var(--theme4-medium);
-  padding-bottom: 6rem; /* 충분히 공간 확보 */
+  padding-bottom: 6rem;
 
   &::before {
   content: "";
@@ -72,7 +72,7 @@ a { text-decoration:none; }
 
 .profile-img {
   width: 192px;
-  aspect-ratio: 1;
+  aspect-ratio: 1.0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -93,64 +93,34 @@ a { text-decoration:none; }
     .name-zone h2 { color: var(--theme4-dark); }
 
 
-
 .personal-info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px,auto)); /* 5개의 열을 생성 */
-  grid-auto-rows: auto;
-  gap: 16px; /* 각 아이템 간 간격 */
-  justify-content: center; /* 중앙 정렬 */
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 16px;
   padding: 1rem 0;
-}
-  
 
-.personal-info span { 
-        color: white;
-        display: inline-flex;
-        font-size: 0;
-        vertical-align: middle;
-        clip-path: inset(0 100% 0 0);
-        transition: font-size .6s ease-in-out, clip-path .4s;
-        transition-delay: 0s, .45s;
-        transition-property: font-size, clip-path;
-}
+  a {
+    display: inline-flex;
+    cursor: pointer;
 
-
-
-  .personal-info img {
-        width:20px;
-        aspect-ratio:1.0;
-        cursor: pointer;
-        vertical-align: middle;
-        transition: all .75s;
-        filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
-}
-
- .personal-info {
-        a {
-            display: inline-flex;
-            cursor: pointer;
-
-            &:hover {
-                img {
-                    width: 28px;
-                    filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
-                }
-            }
-        }
-
-        li { height: 40px; }
-
-        li:nth-child(-n+10) { 
-            text-align: center; 
-
-            img { 
-                margin: 0.5rem;
-            }
-
-        }
+    &:hover {
+      img {
+        width: 28px;
+        filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
+      }
     }
+  }
+
+  img {
+    width: 20px;
+    aspect-ratio: 1.0;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 0.75s;
+    filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
+  }
+}
     
 
 
