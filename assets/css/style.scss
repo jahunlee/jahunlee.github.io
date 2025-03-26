@@ -105,7 +105,12 @@ a { text-decoration:none; }
   margin-top: 1rem;
 
 
-.personal-info {
+        li {
+            display: flex;
+            align-items: center;
+        }
+
+
         a {
             display: inline-flex;
             cursor: pointer;
@@ -119,13 +124,8 @@ a { text-decoration:none; }
         }
 
 
-        li {
-            display: flex;
-            align-items: center;
-        }
 
-
- .personal-info span { 
+    span { 
         color: white;
         display: inline-flex;
         font-size: 0;
@@ -137,7 +137,7 @@ a { text-decoration:none; }
     }
 
 
-.personal-info img {
+    img {
         width:20px;
         aspect-ratio:1.0;
         cursor: pointer;
@@ -145,7 +145,7 @@ a { text-decoration:none; }
         transition: all .75s;
         filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
     }
-
+}
 
     
 
