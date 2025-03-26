@@ -93,7 +93,6 @@ a { text-decoration:none; }
     .name-zone h2 { color: var(--theme4-dark); }
 
 
-
 .personal-info {
   display: flex;
   flex-wrap: wrap;
@@ -103,46 +102,48 @@ a { text-decoration:none; }
   margin: 2rem auto;
   padding: 0;
 }
-  
 
-.personal-info span { 
-        color: white;
-        display: inline-flex;
-        font-size: 0;
-        vertical-align: middle;
-        clip-path: inset(0 100% 0 0);
-        transition: font-size .6s ease-in-out, clip-path .4s;
-        transition-delay: 0s, .45s;
-        transition-property: font-size, clip-path;
-    }
+.personal-info li {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+}
 
+.personal-info a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
 
+.personal-info img {
+  width: 20px;
+  aspect-ratio: 1;
+  transition: all 0.4s ease;
+  filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
+}
 
-    .personal-info img {
-        width:20px;
-        aspect-ratio:1.0;
-        cursor: pointer;
-        vertical-align: middle;
-        transition: all .75s;
-        filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
-    }
+.personal-info span {
+  color: white;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
 
-    .personal-info {
-        a {
-            display: inline-flex;
-            cursor: pointer;
+.personal-info a:hover img {
+  width: 28px;
+  filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
+}
 
-            &:hover {
-                img {
-                    width: 28px;
-                    filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
-                }
-            }
-        }
-
-        li { height: 40px; }
-
-    }
+.personal-info a:hover span {
+  font-size: 14px;
+  max-width: 300px;
+  margin-left: 4px;
+}
     
 
 
