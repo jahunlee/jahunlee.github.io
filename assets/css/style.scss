@@ -102,15 +102,15 @@ a { text-decoration:none; }
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap; /* ✅ 한 줄로 유지 */
-  gap: 6px; /* ✅ 더 붙이기 */
-  overflow-x: auto; /* ✅ 아이콘이 많을 경우 대비 */
+  flex-wrap: wrap; /* ✅ 화면 너비에 따라 줄바꿈 */
+  gap: 8px; /* ✅ 아이콘 사이 적당히 붙이기 */
+  row-gap: 4px; /* ✅ 줄 간격은 더 좁게 */
   padding: 0;
   margin-top: 0.5rem;
+  max-width: 100%;
 }
 
 .name-zone .personal-info li {
-  flex-shrink: 0; /* ✅ 줄어들지 않게 */
   margin: 0;
 }
 
