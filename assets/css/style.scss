@@ -50,32 +50,33 @@ a { text-decoration:none; }
   z-index: 2;
 }
 
-.profile-zone {
-  width: 100%;
-  height: 230px;
-  background-color: var(--theme4-medium);
-  margin: 4rem auto;
-  position: relative;
+    .profile-zone{
+        width: 100%;
+        position: relative;
+        margin: 3rem auto;
+        background-color: var(--theme4-medium);
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4rem;
-    top: -4rem;
-    left: 0;
-    background-color: var(--color-background);
-  }
-}
+        &:before {
+            content:"";
+            position: absolute;
+            width: 100%;
+            height: 4rem;
+            top: -4rem;
+            left: 0;
+            background: var(--color-background);
+        }
+    }
 
-
-.profile-img {
-  width: 300px;
-  aspect-ratio: 1.0;
-  margin-top: -1rem;
-  border-radius: 50%;
-  border: 4px solid var(--theme3-dark);
-}
+    .profile-zone .profile-img {
+        width:192px;
+        aspect-ratio:1.0;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        border-radius:50%;
+        border: 4px solid var(--theme3-dark);
+    }
 
 
 .name-zone { margin-top: 0m; }
