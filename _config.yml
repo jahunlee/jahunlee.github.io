@@ -8,7 +8,6 @@ job: "Ph.D. Student in Public Administration"
 
 #phone_number: 012-345-6789
 address: University of Illinois Chicago
-email: jlee903@uic.edu
 #linkedin_username: linkedin
 #github_username: github
 #instagram_username: instagram
@@ -16,6 +15,8 @@ email: jlee903@uic.edu
 #facebook_username: facebook
 #youtube_username: youtube
 #blog_url: homepage-url
+email: jlee903@uic.edu
+
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
