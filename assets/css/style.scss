@@ -96,7 +96,7 @@ a { text-decoration:none; }
 
 .personal-info {
   display: grid;
-  grid-template-columns: repeat(10, auto); /* 5개의 열을 생성 */
+  grid-template-columns: repeat(auto-fit, minmax(100px,auto)); /* 5개의 열을 생성 */
   grid-auto-rows: auto;
   gap: 16px; /* 각 아이템 간 간격 */
   justify-content: center; /* 중앙 정렬 */
@@ -114,20 +114,20 @@ a { text-decoration:none; }
         transition: font-size .6s ease-in-out, clip-path .4s;
         transition-delay: 0s, .45s;
         transition-property: font-size, clip-path;
-    }
+}
 
 
 
-    .personal-info img {
+  .personal-info img {
         width:20px;
         aspect-ratio:1.0;
         cursor: pointer;
         vertical-align: middle;
         transition: all .75s;
         filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
-    }
+}
 
-    .personal-info {
+ .personal-info {
         a {
             display: inline-flex;
             cursor: pointer;
@@ -142,6 +142,14 @@ a { text-decoration:none; }
 
         li { height: 40px; }
 
+        li:nth-child(-n+10) { 
+            text-align: center; 
+
+            img { 
+                margin: 0.5rem;
+            }
+
+        }
     }
     
 
