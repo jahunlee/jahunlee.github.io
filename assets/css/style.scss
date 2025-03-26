@@ -57,7 +57,7 @@ a { text-decoration:none; }
   align-items: center;
   height: 300px;
   background-color: var(--theme4-medium);
-  margin: 2rem auto;
+  margin: 3rem auto;
   position: relative;
 
   &::before {
@@ -77,8 +77,6 @@ a { text-decoration:none; }
   aspect-ratio: 1.0;
   border-radius: 50%;
   border: 4px solid var(--theme3-dark);
-  margin-top: 0.25rem;
-  margin-bottom: 0; // 이름이랑 간격 조정
 }
 
 
