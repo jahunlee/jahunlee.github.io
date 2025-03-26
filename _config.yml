@@ -24,9 +24,7 @@ exclude:
   - _posts/
   - resources/
   - vendor/
-  - _data/Awards.yml
-  - _data/_Skills.yml
-  - _data/_Publications.yml
+  - _data/exclusion/
 
 plugins:
   - jekyll-feed
