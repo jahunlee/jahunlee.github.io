@@ -93,62 +93,51 @@ a { text-decoration:none; }
     .name-zone h2 { color: var(--theme4-dark); }
 
 
+
 .personal-info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr)); /* 작고 유연한 박스 */
-  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 1rem 0;
-  max-width: 480px;
-  margin: 0 auto;
 }
 
 .personal-info li {
-  background-color: var(--theme4-medium);
-  padding: 0.6rem;
-  border-radius: 8px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
-
-.personal-info li:hover {
-  background-color: var(--theme4-dim);
-}
-
-.personal-info a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .personal-info img {
-  width: 20px;
-  aspect-ratio: 1;
-  transition: all 0.4s ease;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease, filter 0.3s ease;
   filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
 }
 
-.personal-info a:hover img {
-  width: 24px;
-  filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
+.personal-info span {
+  font-size: 0;
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--font-dark);
+  margin-left: 0.5rem;
+  transition: max-width 0.4s ease, font-size 0.4s ease;
 }
 
-.personal-info span {
-  color: white;
-  font-size: 0;
-  margin-left: 0.5rem;
-  clip-path: inset(0 100% 0 0);
-  white-space: nowrap;
-  transition: font-size 0.4s ease, clip-path 0.4s ease;
+.personal-info a:hover img {
+  transform: scale(1.2);
+  filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
 }
 
 .personal-info a:hover span {
   font-size: 14px;
-  clip-path: inset(0 0 0 0);
+  max-width: 200px;
 }
+
+
+
+    
 
 
 #contents{
