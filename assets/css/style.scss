@@ -53,9 +53,10 @@ a { text-decoration:none; }
 .profile-zone {
   width: 100%;
   position: relative;
-  margin: 3rem auto;
+  margin: 6rem auto;
   background-color: var(--theme4-medium);
   padding-bottom: 6rem;
+  
 
   &::before {
   content: "";
