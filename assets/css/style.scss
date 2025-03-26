@@ -133,6 +133,7 @@ a { text-decoration:none; }
         color: var(--theme4-dark);
         display: inline-flex;
         font-size: 0;
+        margin-left: 0.5rem;
         vertical-align: middle;
         clip-path: inset(0 100% 0 0);
         transition: font-size .6s ease-in-out, clip-path .4s;
