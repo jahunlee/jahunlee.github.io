@@ -1,6 +1,6 @@
 subject: About Me
 listing-order: 1
-icon: 
+icon: "/assets/img/briefcase.svg"
 contents:
   - description: |
       I am Jahun Lee, a Ph.D. Student in Public Administration at the Department of Public Policy, Management and Analytics at the University of Illinois Chicago (UIC). 
