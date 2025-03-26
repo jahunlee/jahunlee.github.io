@@ -52,25 +52,24 @@ a { text-decoration:none; }
 
 .profile-zone {
   display: flex;
+  flex-direction: column; /* 수직 정렬 */
   justify-content: center;
   align-items: center;
-  height: 320px;
-  width: 100%;
-  position: relative;
-  margin: 6rem auto;
+  height: 360px;
   background-color: var(--theme4-medium);
-  
+  margin: 6rem auto;
+  position: relative;
+
   &::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4rem;
-  top: -4rem;
-  left: 0;
-  background-color: var(--color-background);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    top: -4rem;
+    left: 0;
+    background-color: var(--color-background);
   }
 }
-
 
 
 .profile-img {
@@ -78,10 +77,11 @@ a { text-decoration:none; }
   aspect-ratio: 1.0;
   border-radius: 50%;
   border: 4px solid var(--theme3-dark);
+  margin-bottom: 0.5rem; // 이름이랑 간격 조정
 }
 
 
-.name-zone { margin-top: 0.5rem; }
+.name-zone { margin-top: 0m; }
 
 .name-zone h1, 
 .name-zone h3 {
