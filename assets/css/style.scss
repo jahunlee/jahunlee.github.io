@@ -51,10 +51,7 @@ a { text-decoration:none; }
 }
 
 .profile-zone {
-  display: flex;
-  flex-direction: column; /* 수직 정렬 */
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   height: 230px;
   background-color: var(--theme4-medium);
   margin: 4rem auto;
