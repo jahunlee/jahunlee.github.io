@@ -1,6 +1,6 @@
 subject: About Me
-listing-order: 0
-icon: "/assets/img/trophy.svg"
+listing-order: 1
+icon: 
 contents:
   - description: |
       I am an assistant professor in Computer Science, Data Science Institute, and Cognitive Science (affiliated) at the University of Chicago. Previously, I was a postdoctoral researcher in the Computational Social Science group at Microsoft Research. I received my Ph.D. in Computer Science from Stanford University, where I was fortunate to be advised by Percy Liang. Before that, I was an undergraduate at Korea University. My research is at the intersection of human-computer interaction (HCI) and natural language processing (NLP).
