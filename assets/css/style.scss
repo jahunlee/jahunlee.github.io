@@ -100,17 +100,17 @@ a { text-decoration:none; }
 
 .name-zone .personal-info {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; /* ✅ 화면 너비에 따라 줄바꿈 */
-  gap: 8px; /* ✅ 아이콘 사이 적당히 붙이기 */
-  row-gap: 4px; /* ✅ 줄 간격은 더 좁게 */
+  flex-wrap: wrap;            /* ✅ 줄바꿈 허용 */
+  justify-content: center;    /* ✅ 가운데 정렬 */
+  column-gap: 8px;            /* ✅ 아이콘 간 간격 */
+  row-gap: 6px;               /* ✅ 줄 간 간격 */
   padding: 0;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   max-width: 100%;
 }
 
 .name-zone .personal-info li {
+  display: inline-block;      /* ✅ li가 가로로 정렬되도록 */
   margin: 0;
 }
 
