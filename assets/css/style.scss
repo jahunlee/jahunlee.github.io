@@ -82,24 +82,16 @@ a { text-decoration:none; }
   z-index: 3;
 }
 
+
 .name-zone {
-  margin-top: 6rem;
+  margin-top: 2rem; /* 기존 6rem → 더 가까이 */
   text-align: center;
-}
-
-.name-zone h1 {
-  margin: 0;
-  color: var(--theme3-dark);
-}
-
-.name-zone h2 {
-  margin: 0;
-  color: var(--theme4-dark);
 }
 
 .name-zone .personal-info {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 1rem;
@@ -111,10 +103,12 @@ a { text-decoration:none; }
 }
 
 .name-zone .personal-info a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  gap: 8px;
   text-decoration: none;
   transition: transform 0.3s;
+  color: inherit;
 }
 
 .name-zone .personal-info img {
@@ -124,14 +118,24 @@ a { text-decoration:none; }
   transition: all 0.3s;
 }
 
+.name-zone .personal-info span {
+  font-size: 14px;
+  color: var(--font-dark);
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.4s ease;
+}
+
+/* hover 시 아이콘 커지고, 텍스트(span) 보이게 */
 .name-zone .personal-info a:hover img {
   transform: scale(1.2);
   filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
 }
 
-.name-zone .personal-info span {
-  display: none;
+.name-zone .personal-info a:hover span {
+  opacity: 1;
 }
+
 #contents{
     width: 85%;
     margin-left: 7.5%;
