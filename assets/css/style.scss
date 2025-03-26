@@ -55,7 +55,7 @@ a { text-decoration:none; }
   flex-direction: column; /* 수직 정렬 */
   justify-content: flex-start;
   align-items: center;
-  height: 150px;
+  height: 300px;
   background-color: var(--theme4-medium);
   margin: 2rem auto;
   position: relative;
@@ -73,11 +73,11 @@ a { text-decoration:none; }
 
 
 .profile-img {
-  width: 256px;
+  width: 350px;
   aspect-ratio: 1.0;
   border-radius: 50%;
   border: 4px solid var(--theme3-dark);
-  margin-top: 1rem;
+  margin-top: 0.25rem;
   margin-bottom: 0; // 이름이랑 간격 조정
 }
 
