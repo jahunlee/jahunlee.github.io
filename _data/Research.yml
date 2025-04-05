@@ -2,21 +2,17 @@ subject: Research
 listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
- 
+  - title: "Research Interests"
   - description: |
-     Our research group is interested in the evolving relationship between humans and AI, with a special focus on Writing with AI. We design and evaluate AI writing assistants (e.g., design space), investigate human-AI collaborative writing processes (e.g., CoAuthor), and conduct user studies, controlled experiments, and surveys to examine the broader implications, such as how AI might shift social norms around authorship, reshape writing education, and influence our everyday communication. Beyond writing, our group's interests span areas such as how AI can support human cognition and decision-making, how AI can enhance learning and teaching, evaluating AI systems with a focus on the needs and experiences of users, and improving public understanding of AI. 
-     
-     Our members have backgrounds in human-computer interaction (HCI), computational social science (CSS), and natural language processing (NLP). Check out the topics each member is passionate about below!
+    My research primarily focuses on urban governance which consists of various choices of different actors. Particularly, I investigate local governments' collaboration with other governments and/or third parties to understand how local governments address policy challenges. 
+    
 
 
-  - title: "Local Governments' Choice of Service Delivery Mode"
+  - title: "Projects in Development"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "Test" 
-    description: 
-      - Machine learning library for applications such as computer vision and natural language processing
-      - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+      - Local public mangaers' choice of service delivery mode
+       - Exploring the factors affect the choice of service delivery.
+       - "Method Used: Conjoint Experiment"
+    # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)" #
+  
+  
