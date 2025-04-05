@@ -3,15 +3,13 @@ listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "Research Interests"
-    description: |
+    description: >
       My research primarily focuses on urban governance which consists of various choices of different actors. 
-      Particularly, I investigate local governments' collaboration with other governments and/or third parties to understand how local governments address policy challenges. 
+      Particularly, I investigate local governments' collaboration with other governments and/or third parties 
+      to understand how local governments address policy challenges.
 
   - title: "Projects in Development"
     description: |
-    - "**Local public managers' choice of service delivery mode**"
-        - "Exploring the factors affecting the choice of service delivery"
-        - "Method Used: Conjoint Experiment"
-    # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  
-  
+      - **Local public managers' choice of service delivery mode**  
+      - Exploring the factors affecting the choice of service delivery  
+      - Method Used: Conjoint Experiment
