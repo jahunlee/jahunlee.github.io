@@ -55,3 +55,11 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }, 200);
 });
+
+
+
+ // Add this block to make every link open in a new tab:
+    document.querySelectorAll("a").forEach(link => {
+        link.setAttribute("target", "_blank");
+    });
+});
