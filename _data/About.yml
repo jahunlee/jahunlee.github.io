@@ -3,11 +3,11 @@ listing-order: 1
 icon: "/assets/img/about.svg"
 contents:
   - title: "About Me"
-    description: >
-      I am Jahun Lee, a Ph.D. Student in Public Administration at the Department of Public Policy,
-      Management and Analytics at the University of Illinois Chicago (UIC). My research focuses broadly
-      on urban governance, policy, and networks.
+    description: |
+      I am Jahun Lee, a Ph.D. Student in Public Administration at the Department of Public Policy, Management and Analytics at the University of Illinois Chicago (UIC). 
+      My research focuses broadly on urban governance, policy, and networks.
 
   - title: "Affiliation"
-    image: "[![Network & Governance Lab](/assets/img/NGL_Logo.jpg){:width="25%" :height="25%"}](https://cuppa.uic.edu/net-gov-lab/)"
+    description: > 
+      "[![Network & Governance Lab](/assets/img/NGL_Logo.jpg){:width="25%" :height="25%"}](https://cuppa.uic.edu/net-gov-lab/)"
       
