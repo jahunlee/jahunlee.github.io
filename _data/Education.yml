@@ -2,13 +2,11 @@ subject: Education
 listing-order: 2
 icon: "/assets/img/graduation-cap.svg"
 contents:
-  - title: University of Illinois, Chicago
+  - title: University of Illinois Chicago
     date: Aug. 2021 - Current
     description: 
       - Ph.D. in Public Administration
   - title: University of Seoul
     date: Mar. 2016 - Feb. 2018
     description:
-      - Master of Public Administration (MPA)
-      - "Thesis: *A study on the reconceptualization of sharing and the case analysis of the sharing economy* <br> - Advisor: Kim, Tae Young" 
-    
+      - Master in Public Administration
