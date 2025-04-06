@@ -35,17 +35,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
         Array.from(headers).forEach(function(h){
             let headPos = h.getBoundingClientRect().top + window.scrollY - wh/2;
-
             if (scrollPos > headPos) currHead = h;
         });
 
         Array.from(contents).forEach(function(c){
             let contentPos = c.getBoundingClientRect().top + window.scrollY - wh;
-
             if (c.classList.contains("appear")) return;
-
             if (scrollPos < contentPos) return;
-
             c.classList.add('appear');
         });
 
@@ -54,11 +50,8 @@ document.addEventListener('DOMContentLoaded', function(){
             tocLink.classList.add('active');
         }
     }, 200);
-});
 
-
-
- // Add this block to make every link open in a new tab:
+    // Add this block to make every link open in a new tab:
     document.querySelectorAll("a").forEach(link => {
         link.setAttribute("target", "_blank");
     });
