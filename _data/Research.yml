@@ -3,11 +3,10 @@ listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "Research Interests"
-    description: >
-      "My research primarily focuses on urban governance which consists of various choices of different actors. 
-      Particularly, I investigate local governments' collaboration with other governments and/or third parties 
-      to understand how local governments address policy challenges."
-        "- Methods: Conjoint experiment"
+    description: 
+      - My research primarily focuses on urban governance which consists of various choices of different actors. Particularly, I investigate local governments' collaboration with other governments and/or third parties 
+      to understand how local governments address policy challenges.
+      - "Methods: Conjoint experiment"
 
   - title: "Projects in Development" 
     ref: 
